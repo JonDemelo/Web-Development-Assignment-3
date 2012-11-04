@@ -1,0 +1,104 @@
+body {
+	padding:0;
+	margin:0;
+	font-size: 12px;
+	font-family: arial, sans-serif;  
+	color:#000;
+}
+
+#mainbody {
+/*	width: 810px;*/
+	width: 1000px;
+	position: relative;
+	margin: 60px auto;
+	margin-top: 150px;
+}
+
+#button:hover{
+	background-color: red;
+	border-color: #E80000;
+
+}
+
+#button{
+	margin-left: 10px;
+    width: 75px;
+    color: #fff;
+    height: 31px;
+    background: #147ee1;
+    border-color: #3399FF;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#emailfield{
+	height: 24px;
+	width: 180px;
+}
+
+#leftText{
+	font-weight: bold;
+	font-size: 14pt;
+	line-height: 30px;
+	float: left;
+	color: #147ee1;
+	margin-right: 10px;
+}
+
+#loading{
+	margin-right: 300px;
+	margin-top: -20px;
+	float: left;
+	display: none;
+}
+
+#error{
+	color: red;
+	padding: 10px;
+	font-weight: bold;
+	display: none;
+}
+
+#info{
+	float: right;
+	width: 450px;
+	font-size: 11pt;
+	height: 150px;
+}
+
+#name{
+	color: #147ee1;
+	display: none;
+}
+
+#spec{
+	color: #147ee1;
+	display: none;
+}
+
+#email{
+	color: #147ee1;
+	display: none;
+}
+
+#headers{
+	width: 50px;
+	height: 150px;
+	float: left;
+	font-weight: bold;
+	font-size: 12pt;
+	display: none;
+}
+
+#rightside{
+	width: 500px;
+	height: 150px;
+	float: right;
+}
+
+#leftside{
+	float: left;
+	margin-left: 80px;
+}
